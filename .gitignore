@@ -1,0 +1,13 @@
+# Output files
+output/
+*.docx
+!templates/reference.docx  # テンプレートだけは管理に含める
+
+# OS files
+.DS_Store
+Thumbs.db
+
+bib/
+venv/
+paper_texts/
+papers/
