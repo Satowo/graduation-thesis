@@ -11,11 +11,15 @@
 3. 数字と単位の間には半角スペースを入れる。数字の前は半角スペースは入れなくて良い。
 例:この材料を3 kg用いる。
 
-4. 引用文献
-引用文献は以下のように書いてください。論文を通して必ず統一して下さい
-例: Takaya et al. (2018)
+4. パラグラフの始めは全角スペースを入れる
+例:〜である。\n
+　また、これは〜
 
-5. 参考文献
+5. 引用文献
+引用文献は以下のように書いてください。論文を通して必ず統一して下さい
+例: Takaya et al. (2018) 
+
+1. 参考文献
 参考文献はSIST 02形式で書いてください。
 例: 
 （和図書）
@@ -38,7 +42,6 @@ no.3, p. 95-98. http://www.jstage.jst.go.jp/article/cicsj/23/3/23_95/_article/-c
 （ウェブサイト記事）
 “Grants.gov Application Guide SF424 (R&R)”. U.S. Department of Health and Human Services.
 http://grants1.nih.gov/grants/funding/424/SF424_RR_Guide_General.pdf, (accessed 2006-07-01).
-
 
 # アドバイス
 ## パラグラフ・ライティング
