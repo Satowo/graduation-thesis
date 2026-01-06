@@ -31,3 +31,11 @@ $(OUTPUT_NAME): $(MD_FILES)
 # 掃除用コマンド
 clean:
 	rm -rf $(OUTPUT_DIR)/*
+
+# 論文文字起こしコマンド
+paper:
+	source venv/bin/activate && python utils/pdf_to_text.py && deactivate
+
+# グラフ作成コマンド
+graph:
+	source venv/bin/activate && python utils/create_leaching_graph.py && deactivate
