@@ -16,12 +16,12 @@ def create_leaching_graph(csv_path=None, output_path=None):
     """
     # デフォルトパスの設定
     if csv_path is None:
-        csv_path = PROJECT_ROOT / "csv" / "leaching_data.csv"
+        csv_path = PROJECT_ROOT / "csv" / "硫酸_Mn.csv"
     else:
         csv_path = Path(csv_path)
     
     if output_path is None:
-        output_path = PROJECT_ROOT / "graphs" / "leaching_graph.png"
+        output_path = PROJECT_ROOT / "graphs" / "硫酸_Mn.png"
     else:
         output_path = Path(output_path)
     
@@ -60,17 +60,20 @@ def create_leaching_graph(csv_path=None, output_path=None):
     ]
 
     # 3. 各シリーズのプロット
+    # シリーズラベルの取得（空行を除外）
+    series_labels = df['series'].dropna().values
+
     # yの値を上から順にxの数分ずつ分割してプロット
-    for i in range(6):
+    for i in range(len(series_labels)):
         start_idx = i * num_x
         end_idx = start_idx + num_x
         series_y = y_all[start_idx:end_idx]
         
         ax.plot(x_values, series_y, 
-                label=f'Series {i+1}',
+                label=series_labels[i],
                 linewidth=1.5,      # ルール7: 折れ線は太め(1.5pt)
                 markersize=6,
-                **styles[i])
+                **styles[i % len(styles)])
 
     # 4. 軸と目盛りの設定
     # ルール10: 軸ラベルの設定。単位を忘れずに記載。
@@ -99,12 +102,66 @@ def create_leaching_graph(csv_path=None, output_path=None):
     # 保存（論文用なので高解像度pngまたはpdf/eps）
     output_path.parent.mkdir(parents=True, exist_ok=True)  # ディレクトリが存在しない場合は作成
     plt.savefig(str(output_path), bbox_inches='tight', dpi=300)
-    plt.show()
+    plt.close()  # メモリリークを防ぐためにグラフを閉じる
 
     print(f"グラフを保存しました: {output_path}")
     print("図1 浸出率の経時変化") # ルール11: 体言止め、ルール8: 図の下にタイトル
 
 
+def create_all_leaching_graphs(csv_folder=None, output_folder=None):
+    """
+    csvフォルダ内のすべてのCSVファイルからグラフを作成する
+    
+    Args:
+        csv_folder: CSVファイルが格納されているフォルダのパス（Noneの場合はデフォルトでcsvフォルダ）
+        output_folder: グラフの出力先フォルダ（Noneの場合はデフォルトでgraphsフォルダ）
+    
+    Returns:
+        list: 作成されたグラフファイルのパスのリスト
+    """
+    if csv_folder is None:
+        csv_folder = PROJECT_ROOT / "csv"
+    else:
+        csv_folder = Path(csv_folder)
+    
+    if output_folder is None:
+        output_folder = PROJECT_ROOT / "graphs"
+    else:
+        output_folder = Path(output_folder)
+    
+    if not csv_folder.is_dir():
+        raise NotADirectoryError(f"指定されたパスはディレクトリではありません: {csv_folder}")
+    
+    # CSVファイルを検索
+    csv_files = list(csv_folder.glob("*.csv"))
+    
+    if not csv_files:
+        print(f"フォルダ内にCSVファイルが見つかりませんでした: {csv_folder}")
+        return []
+    
+    print(f"見つかったCSVファイル: {len(csv_files)}個")
+    print("-" * 50)
+    
+    created_graphs = []
+    for csv_file in csv_files:
+        try:
+            # 出力ファイル名を生成（CSVファイル名から拡張子を除いて.pngに変更）
+            output_filename = csv_file.stem + ".png"
+            output_path = output_folder / output_filename
+            
+            print(f"処理中: {csv_file.name}")
+            create_leaching_graph(csv_file, output_path)
+            created_graphs.append(output_path)
+            print()
+        except Exception as e:
+            print(f"エラー: {csv_file.name} のグラフ作成に失敗しました: {e}")
+            print()
+    
+    print("-" * 50)
+    print(f"グラフ作成完了: {len(created_graphs)}/{len(csv_files)}個のファイル")
+    return created_graphs
+
+
 if __name__ == "__main__":
-    # 関数を実行
-    create_leaching_graph()
+    # csvフォルダ内のすべてのCSVファイルからグラフを作成
+    create_all_leaching_graphs()
