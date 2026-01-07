@@ -13,10 +13,16 @@
 
 [3] Kato, Y.; Fujinaga, K.; Nakamura, K.; Takaya, Y.; Kitamura, K.; Ohta, J.; Toda, R.; Nakashima, T.; Iwamori, H. Deep-sea mud in the Pacific Ocean as a potential resource for rare-earth elements. Nature Geoscience. 2011, vol. 4, p. 535-539.
 
-[4] 日本財団．南鳥島周辺海域におけるマンガンノジュールに関する調査結果．2024.
+[4] 日本財団．南鳥島近海における海底鉱物資源の調査速報．2024. https://www.nippon-foundation.or.jp/who/news/pr/2024/20240621-102397.html (2025年1月7日閲覧)．
 
 [5] Machida, S.; Fujinaga, K.; Ishii, T.; Nakamura, K.; Hirano, N.; Kato, Y. Geology and geochemistry of ferromanganese nodules in the Japanese Exclusive Economic Zone around Minamitorishima Island. Geochemical Journal. 2016, vol. 50, p. 539-555.
 
 [6] 小島和浩．マンガン団塊の製錬技術の開発．資源と素材．1996, vol. 112, p. 968-973.
 
 [7] 河原正泰，江崎慎二，白根義則．低品位マンガンノジュールの予備還元アンモニア浸出．日本鉱業会誌．1985, vol. 101, no. 1170, p. 489-494.
+
+[8] Mero, J. L. The Mineral Resources of the Sea. Elsevier Oceanography Series. 1965, vol. 1, 312 p.
+
+[9] Murray, J.; Renard, A. F. Report on Deep-Sea Deposits based on the Specimens collected during the Voyage of H.M.S. Challenger in the years 1872 to 1876. HMSO. 1891, 525 p.
+
+[10] The Metals Company Inc. Form 10-K (Annual Report) for the fiscal year ended December 31, 2022. 2023. https://www.sec.gov/Archives/edgar/data/1798562/000110465923037110/tmc-20221231x10k.htm (2025年1月7日閲覧).
