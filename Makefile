@@ -43,3 +43,6 @@ graph:
 # CSV区切り文字変換コマンド（csvフォルダ内のすべてのCSVファイルをカンマ区切りに変換）
 convert_csv:
 	source venv/bin/activate && python utils/convert_csv_delimiter.py && deactivate
+
+cp_graphs:
+	cp graphs/* ~/Downloads/labo/graphs/
