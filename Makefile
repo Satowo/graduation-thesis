@@ -46,3 +46,6 @@ convert_csv:
 
 cp_graphs:
 	cp graphs/* ~/Downloads/labo/graphs/
+
+open:
+	open output/graduation_thesis.docx
