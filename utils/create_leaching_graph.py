@@ -83,8 +83,18 @@ def create_leaching_graph(csv_path=None, output_path=None):
     # ルール31: 目盛りの数字は太字にしない
     ax.tick_params(axis='both', labelsize=10, width=0.5) # ルール7: 目盛り線は細く
     
-    # ルール29: 折れ線グラフでは基線「0」を省いても良いが、今回は0を含む設定に
-    ax.set_ylim(bottom=0) 
+    # 縦軸の範囲設定：マイナスの値が含まれている場合は適切な範囲を設定
+    y_min = float(pd.Series(y_all).dropna().min())
+    y_max = float(pd.Series(y_all).dropna().max())
+    
+    if y_min < 0:
+        # マイナスの値がある場合、最小値にマージンを付けて下限を設定
+        y_range = y_max - y_min
+        y_bottom = y_min - y_range * 0.1  # 最小値の10%下にマージンを設定
+        ax.set_ylim(bottom=y_bottom)
+    else:
+        # マイナスの値がない場合、従来通り0を下限とする
+        ax.set_ylim(bottom=0) 
     
     # 枠線の太さ設定（ルール7: 基準線は目盛り線より少し太く）
     for spine in ax.spines.values():
