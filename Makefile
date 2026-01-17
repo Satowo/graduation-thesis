@@ -14,8 +14,9 @@ FLAGS = --reference-doc=$(TEMPLATE) \
 		--toc-depth=3 \
 		-M toc-title="目次" \
         -M reference-section-title="参考文献" \
-        -M figureTitle="図" \
-        -M tableTitle="表"
+        -M figureTitle="Fig. " \
+        -M tableTitle="Table. " \
+        -M tableEqns=true
 
 # デフォルトのターゲット
 all: $(OUTPUT_NAME)
