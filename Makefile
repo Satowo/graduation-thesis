@@ -16,7 +16,8 @@ FLAGS = --reference-doc=$(TEMPLATE) \
         -M reference-section-title="参考文献" \
         -M figureTitle="Fig. " \
         -M tableTitle="Table. " \
-        -M tableEqns=true
+        -M tableEqns=true \
+        -M chapters=true
 
 # デフォルトのターゲット
 all: $(OUTPUT_NAME)
