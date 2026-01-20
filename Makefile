@@ -51,3 +51,6 @@ cp_graphs:
 
 open:
 	open output/graduation_thesis.docx
+
+cp_origin_graphs:
+	cp ~/Documents/OriginLab/User\ Files/*.png ~/Downloads/labo/graphs/
