@@ -40,3 +40,11 @@
 [16] FocusEconomics. Copper Price Outlook 2025. 2025. https://www.focus-economics.com/commodities/base-metals/copper/ （2026年1月21日閲覧）.
 
 [17] Intratec / Nasdaq. Cobalt Metal Prices 2025. 2025. https://www.nasdaq.com/articles/cobalt-market-2025-year-end-review （2026年1月21日閲覧）.
+
+[18] Seol, Ho Yun; Wen, Jiang Xian; Lee, Man Seung. Separation of Co(II), Mn(II), and Ni(II) by solvent extraction with Cyanex 272 and D2EHPA from the sulfuric acid leaching solution of spent lithium-ion batteries. Physicochemical Problems of Mineral Processing. 2024, vol. 60, no. 5, p. 193742. https://doi.org/10.37190/ppmp/193742 （2026年1月21日閲覧）.
+
+[19] Metal.com. Battery Grade Manganese Sulfate Price. 2025. https://www.metal.com/ （2026年1月21日閲覧）.
+
+[20] Theorem Chemical. D2EHPA (Di-2-ethylhexyl phosphoric acid) Price Listings. 2024. https://www.theoremchemical.com/ （2026年1月21日閲覧）.
+
+[21] Made-in-China.com. D2EHPA Extractant Price Listings. 2024. https://www.made-in-china.com/ （2026年1月21日閲覧）.
