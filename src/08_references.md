@@ -48,3 +48,5 @@
 [20] Theorem Chemical. D2EHPA (Di-2-ethylhexyl phosphoric acid) Price Listings. 2024. https://www.theoremchemical.com/ （2026年1月21日閲覧）.
 
 [21] Made-in-China.com. D2EHPA Extractant Price Listings. 2024. https://www.made-in-china.com/ （2026年1月21日閲覧）.
+
+[22] 藤井雄二郎，溝田忠人，河野好美，城添正弘，村上文男．マンガン・ノジュール硫酸浸出液からの金属沈殿分離―水酸化第二鉄によるMn(II), Cu(II), Ni(II)およびCo(II)イオンの共沈現象―．日本鉱業会誌．1985, vol. 101, no. 1171, p. 531-535.
