@@ -41,12 +41,6 @@
 
 [17] Intratec / Nasdaq. Cobalt Metal Prices 2025. 2025. https://www.nasdaq.com/articles/cobalt-market-2025-year-end-review （2026年1月21日閲覧）.
 
-[18] Seol, Ho Yun; Wen, Jiang Xian; Lee, Man Seung. Separation of Co(II), Mn(II), and Ni(II) by solvent extraction with Cyanex 272 and D2EHPA from the sulfuric acid leaching solution of spent lithium-ion batteries. Physicochemical Problems of Mineral Processing. 2024, vol. 60, no. 5, p. 193742. https://doi.org/10.37190/ppmp/193742 （2026年1月21日閲覧）.
+[18] Parween, R.; Rani, K.; Panda, R.; Sharma, A.; Ambade, B.; Jha, M. K. Hydrometallurgical separation and purification to recover iron (Fe), copper (Cu), nickel (Ni), lithium (Li), cobalt (Co), and manganese (Mn) metals from the leach liquor of discarded LIBs. Separation and Purification Technology. 2025, vol. 364, 132325. https://doi.org/10.1016/j.seppur.2025.132325 （2026年1月24日閲覧）.
 
 [19] Metal.com. Battery Grade Manganese Sulfate Price. 2025. https://www.metal.com/ （2026年1月21日閲覧）.
-
-[20] Theorem Chemical. D2EHPA (Di-2-ethylhexyl phosphoric acid) Price Listings. 2024. https://www.theoremchemical.com/ （2026年1月21日閲覧）.
-
-[21] Made-in-China.com. D2EHPA Extractant Price Listings. 2024. https://www.made-in-china.com/ （2026年1月21日閲覧）.
-
-[22] 藤井雄二郎，溝田忠人，河野好美，城添正弘，村上文男．マンガン・ノジュール硫酸浸出液からの金属沈殿分離―水酸化第二鉄によるMn(II), Cu(II), Ni(II)およびCo(II)イオンの共沈現象―．日本鉱業会誌．1985, vol. 101, no. 1171, p. 531-535.
