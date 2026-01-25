@@ -21,7 +21,7 @@
 | Ni | 2,008 | 0.2008 |
 | Cu | 1,654 | 0.1654 |
 
-: 試料の元素組成 {#tbl:composition}
+: Elemental composition of the sample {#tbl:composition}
 
 ```{=openxml}
 <w:p>
@@ -38,15 +38,15 @@
 
 　次に，主要成分である Mn および Fe の浸出挙動について述べる．Fe (@fig:sulfuric-fe) の浸出率は温度および硫酸濃度に強く依存した．25 ℃ における 180 分後の浸出率は，0.5 M で 22.5 %，1 M で 36.4 %，2 M で 52.1 % であったが，100 ℃ では，0.5 M で 31.0 %，1 M で 61.9 %，2 M で 81.5 % まで上昇した．一方，Mn (@fig:sulfuric-mn) はいずれの条件でも 1.1 ～ 1.7 % 程度に留まった．
 
-![硫酸浸出における Ni の浸出率 (未焙焼)](graphs/硫酸_未焙焼_Ni.png){#fig:sulfuric-ni}
+![Leaching rate of Ni in sulfuric acid leaching (unroasted)](graphs/硫酸_未焙焼_Ni.png){#fig:sulfuric-ni}
 
-![硫酸浸出における Co の浸出率 (未焙焼)](graphs/硫酸_未焙焼_Co.png){#fig:sulfuric-co}
+![Leaching rate of Co in sulfuric acid leaching (unroasted)](graphs/硫酸_未焙焼_Co.png){#fig:sulfuric-co}
 
-![硫酸浸出における Cu の浸出率 (未焙焼)](graphs/硫酸_未焙焼_Cu.png){#fig:sulfuric-cu}
+![Leaching rate of Cu in sulfuric acid leaching (unroasted)](graphs/硫酸_未焙焼_Cu.png){#fig:sulfuric-cu}
 
-![硫酸浸出における Fe の浸出率 (未焙焼)](graphs/硫酸_未焙焼_Fe.png){#fig:sulfuric-fe}
+![Leaching rate of Fe in sulfuric acid leaching (unroasted)](graphs/硫酸_未焙焼_Fe.png){#fig:sulfuric-fe}
 
-![硫酸浸出における Mn の浸出率 (未焙焼)](graphs/硫酸_未焙焼_Mn.png){#fig:sulfuric-mn}
+![Leaching rate of Mn in sulfuric acid leaching (unroasted)](graphs/硫酸_未焙焼_Mn.png){#fig:sulfuric-mn}
 
 ### 焙焼試料 (600 ℃，空気雰囲気，炭素付加率10 wt. %，3時間)
 
@@ -56,15 +56,15 @@
 
 　次に，主要成分である Mn および Fe の浸出挙動について述べる．Fe (@fig:sulfuric-roasted-fe) の浸出率は硫酸濃度に強く依存し，0.5 M では 180 分時点で 18.3 % に留まったが，1 M では 44.6 %，2 M では 55.8 % まで上昇した．Mn (@fig:sulfuric-roasted-mn) は，0.5 M では 180 分時点で 39.4 %，1 M では 60.9 %，2 M では 61.4 % と，未焙焼試料と比較して大幅に増加した．これは焙焼によりMnが還元されて浸出しやすい構造に変化したと考えられる．
 
-![硫酸浸出における Ni の浸出率 (焙焼)](graphs/硫酸_焙焼_Ni.png){#fig:sulfuric-roasted-ni}
+![Leaching rate of Ni in sulfuric acid leaching (roasted)](graphs/硫酸_焙焼_Ni.png){#fig:sulfuric-roasted-ni}
 
-![硫酸浸出における Co の浸出率 (焙焼)](graphs/硫酸_焙焼_Co.png){#fig:sulfuric-roasted-co}
+![Leaching rate of Co in sulfuric acid leaching (roasted)](graphs/硫酸_焙焼_Co.png){#fig:sulfuric-roasted-co}
 
-![硫酸浸出における Cu の浸出率 (焙焼)](graphs/硫酸_焙焼_Cu.png){#fig:sulfuric-roasted-cu}
+![Leaching rate of Cu in sulfuric acid leaching (roasted)](graphs/硫酸_焙焼_Cu.png){#fig:sulfuric-roasted-cu}
 
-![硫酸浸出における Fe の浸出率 (焙焼)](graphs/硫酸_焙焼_Fe.png){#fig:sulfuric-roasted-fe}
+![Leaching rate of Fe in sulfuric acid leaching (roasted)](graphs/硫酸_焙焼_Fe.png){#fig:sulfuric-roasted-fe}
 
-![硫酸浸出における Mn の浸出率 (焙焼)](graphs/硫酸_焙焼_Mn.png){#fig:sulfuric-roasted-mn}
+![Leaching rate of Mn in sulfuric acid leaching (roasted)](graphs/硫酸_焙焼_Mn.png){#fig:sulfuric-roasted-mn}
 
 ```{=openxml}
 <w:p>
@@ -81,15 +81,15 @@
 
 　次に，主要成分である Mn および Fe の浸出挙動について述べる．Mn (@fig:oxalic-mn) は，0.3 M および 0.5 M において 100 % を超える高い浸出率を示した．0.1 M では 15 分時点で 99.1 %，その後わずかに低下し，120 分時点で 94.3 % であった．0.3 M および 0.5 M では，15 分時点でそれぞれ 113.8 % および 116.1 % と高い値を示し，その後わずかに低下したが，120 分時点でも 106.5 % および 106.4 % と高い浸出率を維持した．一方，Fe (@fig:oxalic-fe) の浸出挙動は他の元素と大きく異なった．0.1 M では 15 分時点で 67.5 %，その後わずかに低下し，120 分時点で 63.2 % と比較的低い浸出率に留まった．これに対し，0.3 M および 0.5 M では，15 分時点でそれぞれ 88.3 % および 91.1 % と高い値を示し，その後わずかに上昇し，120 分時点でそれぞれ 91.4 % および 93.6 % と高い浸出率に達した．
 
-![シュウ酸浸出における Ni の浸出率 (未焙焼)](graphs/シュウ酸_Ni.png){#fig:oxalic-ni}
+![Leaching rate of Ni in oxalic acid leaching (unroasted)](graphs/シュウ酸_Ni.png){#fig:oxalic-ni}
 
-![シュウ酸浸出における Co の浸出率 (未焙焼)](graphs/シュウ酸_Co.png){#fig:oxalic-co}
+![Leaching rate of Co in oxalic acid leaching (unroasted)](graphs/シュウ酸_Co.png){#fig:oxalic-co}
 
-![シュウ酸浸出における Cu の浸出率 (未焙焼)](graphs/シュウ酸_Cu.png){#fig:oxalic-cu}
+![Leaching rate of Cu in oxalic acid leaching (unroasted)](graphs/シュウ酸_Cu.png){#fig:oxalic-cu}
 
-![シュウ酸浸出における Mn の浸出率 (未焙焼)](graphs/シュウ酸_Mn.png){#fig:oxalic-mn}
+![Leaching rate of Mn in oxalic acid leaching (unroasted)](graphs/シュウ酸_Mn.png){#fig:oxalic-mn}
 
-![シュウ酸浸出における Fe の浸出率 (未焙焼)](graphs/シュウ酸_Fe.png){#fig:oxalic-fe}
+![Leaching rate of Fe in oxalic acid leaching (unroasted)](graphs/シュウ酸_Fe.png){#fig:oxalic-fe}
 
 ```{=openxml}
 <w:p>
@@ -108,13 +108,13 @@
 
 　さらに，焙焼時間を変数とした比較結果を @fig:time-xrd に示す．こちらは (Mg^2+^,Mn^2+^) Fe~2~O~4~のピークからFe~2~O~3~のピークが強くなるという変化が見られた．
 
-![雰囲気を変数としたXRD回折パターンの比較](graphs/atmosphere_260121.png){#fig:atmosphere-xrd}
+![Comparison of XRD diffraction patterns with atmosphere as a variable](graphs/atmosphere_260121.png){#fig:atmosphere-xrd}
 
-![炭素付加率を変数としたXRD回折パターンの比較](graphs/graphite_260121.png){#fig:graphite-xrd}
+![Comparison of XRD diffraction patterns with carbon addition rate as a variable](graphs/graphite_260121.png){#fig:graphite-xrd}
 
-![焙焼温度を変数としたXRD回折パターンの比較](graphs/temperature_260121.png){#fig:temperature-xrd}
+![Comparison of XRD diffraction patterns with roasting temperature as a variable](graphs/temperature_260121.png){#fig:temperature-xrd}
 
-![焙焼時間を変数としたXRD回折パターンの比較](graphs/time_260121.png){#fig:time-xrd}
+![Comparison of XRD diffraction patterns with roasting time as a variable](graphs/time_260121.png){#fig:time-xrd}
 
 　以上の結果から，Mnの価数に注目した考察を行うと，以下のことが考えられる．マンガンノジュール中ではMnは主にMn^4+^として存在しているが，還元焙焼によりMn^4+^がMn^2+^に還元される過程が進行していると考えられる．T=600 ℃を超えると (Mg^2+^,Mn^2+^) Fe~2~O~4~というフェライト構造が形成されることから，Mn^2+^が結晶構造中に取り込まれていると考えられる．さらに，T=800 ℃ではFe~3~O~4~のピークが最も強くなることから，より強い還元条件によりFe^3+^がFe^2+^に還元され，Fe~3~O~4~ (Fe^2+^Fe^3+^~2~O~4~) が形成されていることが示唆される．また，焙焼時間の増加により (Mg^2+^,Mn^2+^) Fe~2~O~4~からFe~2~O~3~のピークが強くなる変化は，還元反応の進行に伴いMn^2+^が結晶構造から遊離するか，あるいはFe~2~O~3~相への転移が促進されることを示していると考えられる．これらの結果は，還元焙焼によりMnの価数がMn^4+^からMn^2+^へと変化していると考えられる．
 
@@ -135,15 +135,15 @@
 
 　次に，主要成分である Mn および Fe の浸出挙動について述べる．Mn (@fig:ammonia-unroasted-mn) および Fe (@fig:ammonia-unroasted-fe) は，全ての条件で浸出率が 0.08 % 以下と非常に低く，実質的に浸出が認められなかった．
 
-![アンモニア-炭酸アンモニウム溶液浸出における Ni の浸出率 (未焙焼)](graphs/アンモニア_未焙焼_Ni.png){#fig:ammonia-unroasted-ni}
+![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (unroasted)](graphs/アンモニア_未焙焼_Ni.png){#fig:ammonia-unroasted-ni}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Co の浸出率 (未焙焼)](graphs/アンモニア_未焙焼_Co.png){#fig:ammonia-unroasted-co}
+![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (unroasted)](graphs/アンモニア_未焙焼_Co.png){#fig:ammonia-unroasted-co}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Cu の浸出率 (未焙焼)](graphs/アンモニア_未焙焼_Cu.png){#fig:ammonia-unroasted-cu}
+![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (unroasted)](graphs/アンモニア_未焙焼_Cu.png){#fig:ammonia-unroasted-cu}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Mn の浸出率 (未焙焼)](graphs/アンモニア_未焙焼_Mn.png){#fig:ammonia-unroasted-mn}
+![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (unroasted)](graphs/アンモニア_未焙焼_Mn.png){#fig:ammonia-unroasted-mn}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Fe の浸出率 (未焙焼)](graphs/アンモニア_未焙焼_Fe.png){#fig:ammonia-unroasted-fe}
+![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (unroasted)](graphs/アンモニア_未焙焼_Fe.png){#fig:ammonia-unroasted-fe}
 
 ```{=openxml}
 <w:p>
@@ -158,15 +158,15 @@
 
 　Mn (@fig:ammonia-no214-mn) および Fe (@fig:ammonia-no214-fe) も同様に低い浸出率を示し，Mn は 0.08 % 以下，Fe は 0.11 % 以下に留まった．
 
-![アンモニア-炭酸アンモニウム溶液浸出における Ni の浸出率 (No214)](graphs/アンモニア_No214_Ni.png){#fig:ammonia-no214-ni}
+![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Ni.png){#fig:ammonia-no214-ni}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Co の浸出率 (No214)](graphs/アンモニア_No214_Co.png){#fig:ammonia-no214-co}
+![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Co.png){#fig:ammonia-no214-co}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Cu の浸出率 (No214)](graphs/アンモニア_No214_Cu.png){#fig:ammonia-no214-cu}
+![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Cu.png){#fig:ammonia-no214-cu}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Mn の浸出率 (No214)](graphs/アンモニア_No214_Mn.png){#fig:ammonia-no214-mn}
+![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Mn.png){#fig:ammonia-no214-mn}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Fe の浸出率 (No214)](graphs/アンモニア_No214_Fe.png){#fig:ammonia-no214-fe}
+![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Fe.png){#fig:ammonia-no214-fe}
 
 ```{=openxml}
 <w:p>
@@ -181,15 +181,15 @@
 
 　主要成分である Mn (@fig:ammonia-no148-mn) および Fe (@fig:ammonia-no148-fe) も，全ての温度条件で極めて低い浸出率を示した．Mn は，25 ℃ および 50 ℃ では120 分時点でそれぞれ 0.01 % および 0.02 % であった．75 ℃ では 60 分時点で一時的に 0.04 % とピークを示したが，その後低下し，120 分時点では 0.02 % に留まった．Fe は，25 ℃ および 50 ℃ では120 分時点でそれぞれ 0.001 % および 0.006 % であった．75 ℃ では 60 分時点で一時的に 0.034 % とピークを示したが，その後低下し，120 分時点では 0.008 % に留まった．
 
-![アンモニア-炭酸アンモニウム溶液浸出における Ni の浸出率 (No148)](graphs/アンモニア_No148_Ni.png){#fig:ammonia-no148-ni}
+![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Ni.png){#fig:ammonia-no148-ni}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Co の浸出率 (No148)](graphs/アンモニア_No148_Co.png){#fig:ammonia-no148-co}
+![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Co.png){#fig:ammonia-no148-co}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Cu の浸出率 (No148)](graphs/アンモニア_No148_Cu.png){#fig:ammonia-no148-cu}
+![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Cu.png){#fig:ammonia-no148-cu}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Mn の浸出率 (No148)](graphs/アンモニア_No148_Mn.png){#fig:ammonia-no148-mn}
+![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Mn.png){#fig:ammonia-no148-mn}
 
-![アンモニア-炭酸アンモニウム溶液浸出における Fe の浸出率 (No148)](graphs/アンモニア_No148_Fe.png){#fig:ammonia-no148-fe}
+![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Fe.png){#fig:ammonia-no148-fe}
 
 ```{=openxml}
 <w:p>
