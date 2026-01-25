@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 from pathlib import Path
 
 # スクリプトの場所を基準にプロジェクトルートを取得
@@ -69,7 +70,14 @@ def create_leaching_graph(csv_path=None, output_path=None):
         end_idx = start_idx + num_x
         series_y = y_all[start_idx:end_idx]
         
-        ax.plot(x_values, series_y, 
+        # 横軸0、縦軸0の点を先頭に追加
+        x_plot = np.concatenate([[0], x_values])
+        y_plot = np.concatenate([[0], series_y])
+        
+        # マイナスの値を0にクリップ
+        y_plot = np.maximum(y_plot, 0)
+        
+        ax.plot(x_plot, y_plot, 
                 label=series_labels[i],
                 linewidth=1.5,      # ルール7: 折れ線は太め(1.5pt)
                 markersize=6,
@@ -83,18 +91,23 @@ def create_leaching_graph(csv_path=None, output_path=None):
     # ルール31: 目盛りの数字は太字にしない
     ax.tick_params(axis='both', labelsize=10, width=0.5) # ルール7: 目盛り線は細く
     
-    # 縦軸の範囲設定：マイナスの値が含まれている場合は適切な範囲を設定
-    y_min = float(pd.Series(y_all).dropna().min())
-    y_max = float(pd.Series(y_all).dropna().max())
+    # 目盛りの位置を調整（原点で交差するように）
+    ax.xaxis.set_ticks_position('bottom')
+    ax.yaxis.set_ticks_position('left')
     
-    if y_min < 0:
-        # マイナスの値がある場合、最小値にマージンを付けて下限を設定
-        y_range = y_max - y_min
-        y_bottom = y_min - y_range * 0.1  # 最小値の10%下にマージンを設定
-        ax.set_ylim(bottom=y_bottom)
-    else:
-        # マイナスの値がない場合、従来通り0を下限とする
-        ax.set_ylim(bottom=0) 
+    # 縦軸の範囲設定：マイナスの値は0にクリップされるため、常に0を下限とする
+    ax.set_ylim(bottom=0)
+    
+    # 横軸の範囲設定：0を下限とする
+    ax.set_xlim(left=0)
+    
+    # 軸を原点(0,0)に配置
+    ax.spines['left'].set_position(('data', 0))
+    ax.spines['bottom'].set_position(('data', 0))
+    
+    # 右側と上側の軸を非表示にする
+    ax.spines['right'].set_visible(False)
+    ax.spines['top'].set_visible(False)
     
     # 枠線の太さ設定（ルール7: 基準線は目盛り線より少し太く）
     for spine in ax.spines.values():
