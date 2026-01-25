@@ -97,13 +97,6 @@
 
 ![Leaching rate of Mn in sulfuric acid leaching (roasted)](graphs/硫酸_焙焼_Mn.png){#fig:sulfuric-roasted-mn}
 
-```{=openxml}
-<w:p>
-  <w:r>
-    <w:br w:type="page"/>
-  </w:r>
-</w:p>
-```
 ## シュウ酸による浸出実験
 
 　シュウ酸を用いた浸出実験の結果を @fig:oxalic-ni から @fig:oxalic-fe に示す．
@@ -122,6 +115,13 @@
 
 ![Leaching rate of Fe in oxalic acid leaching (unroasted)](graphs/シュウ酸_Fe.png){#fig:oxalic-fe}
 
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+```
 ## アンモニア-炭酸アンモニウム溶液による浸出実験
 
 　アンモニア-炭酸アンモニウム溶液を用いた浸出実験の結果を @fig:ammonia-unroasted-ni から @fig:ammonia-no148-fe に示す．未焙焼試料および600 ℃，空気雰囲気，炭素付加率10 wt. % で3時間焙焼した試料の2種類について実験を行った．この実験により，溶液濃度が高い方が浸出率は高いと考え，濃度を15 % NH~3~-9 % CO~2~ の溶液に固定し，試料を800 ℃，空気雰囲気，炭素付加率10 wt. % で3時間焙焼したものを用いて実験を追加で行った．
