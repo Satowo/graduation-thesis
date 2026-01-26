@@ -1,0 +1,10 @@
+---
+title: "南鳥島マンガンノジュールからの湿式処理による金属回収プロセスの検討"
+author: "氏名：吉田聡（学籍番号：03240908）"
+date: "令和8年2月"
+header-includes:
+  - \usepackage{caption}
+# pandoc-crossrefの設定
+figPrefix: "Fig"
+tblPrefix: "Table"
+---
