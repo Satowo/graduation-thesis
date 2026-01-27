@@ -5,6 +5,6 @@ date: "令和8年2月"
 header-includes:
   - \usepackage{caption}
 # pandoc-crossrefの設定
-figPrefix: "Fig"
+figPrefix: "Fig."
 tblPrefix: "Table"
 ---
