@@ -4,32 +4,14 @@
 
 [2] 経済産業省．鉱物政策を巡る状況について．2024.
 
-[3] Mero, J. L. The Mineral Resources of the Sea. Elsevier Oceanography Series. 1965, vol. 1, 312 p.
+[3] 日本財団．南鳥島近海における海底鉱物資源の調査速報．2024.
 
-[4] The Metals Company Inc. Form 10-K (Annual Report) for the fiscal year ended December 31, 2022. 2023. https://www.sec.gov/Archives/edgar/data/1798562/000110465923037110/tmc-20221231x10k.htm (2025年1月7日閲覧).
+[4] Machida, S.; Fujinaga, K.; Ishii, T.; Nakamura, K.; Hirano, N.; Kato, Y. Geology and geochemistry of ferromanganese nodules in the Japanese Exclusive Economic Zone around Minamitorishima Island. Geochemical Journal. 2016, vol. 50, p. 539-555.
 
-[5] 日本財団．南鳥島近海における海底鉱物資源の調査速報．2024. https://www.nippon-foundation.or.jp/who/news/pr/2024/20240621-102397.html (2025年1月7日閲覧)．
+[5] Hein, J. R.; Mizell, K.; Koschinsky, A.; Conrad, T. A. Deep-ocean mineral deposits as a source of critical metals for high- and green-technology applications: Comparison with land-based resources. Ore Geology Reviews. 2013, vol. 51, p. 1-14.
 
-[6] Machida, S.; Fujinaga, K.; Ishii, T.; Nakamura, K.; Hirano, N.; Kato, Y. Geology and geochemistry of ferromanganese nodules in the Japanese Exclusive Economic Zone around Minamitorishima Island. Geochemical Journal. 2016, vol. 50, p. 539-555.
+[6] 小島和浩．マンガン団塊の製錬技術の開発．資源と素材．1996, vol. 112, p. 968-973.
 
-[7] Hein, J. R.; Mizell, K.; Koschinsky, A.; Conrad, T. A. Deep-ocean mineral deposits as a source of critical metals for high- and green-technology applications: Comparison with land-based resources. Ore Geology Reviews. 2013, vol. 51, p. 1-14.
+[7] 河原正泰，江崎慎二，白根義則．低品位マンガンノジュールの予備還元アンモニア浸出．日本鉱業会誌．1985, vol. 101, no. 1170, p. 489-494.
 
-[8] 小島和浩．マンガン団塊の製錬技術の開発．資源と素材．1996, vol. 112, p. 968-973.
-
-[9] 河原正泰，江崎慎二，白根義則．低品位マンガンノジュールの予備還元アンモニア浸出．日本鉱業会誌．1985, vol. 101, no. 1170, p. 489-494.
-
-[10] IndexBox. Sulphuric Acid and Oleum – Market Analysis, Forecast, Size, Trends and Insights. 2024. https://www.indexbox.io/store/world-sulphuric-acid-and-oleum-market-analysis-forecast-size-trends-and-insights/ (2026年1月21日閲覧).
-
-[11] Camachem. Oxalic Acid 99%. 2024. https://camachem.com/en/oxalic-acid-99.html (2026年1月21日閲覧).
-
-[12] Agency for Natural Resources and Energy（資源エネルギー庁）．セメント製造業におけるエネルギー原単位統計（約3,300–3,500 MJ/t-cem）．2024.
-
-[13] Ainvest. LME Cash Nickel Average 2025. 2025. https://www.ainvest.com/news/lme-cash-nickel-average-15-432-ton-2025-16-050-ton-2026-16-813-ton-2024-2507/ (2026年1月21日閲覧).
-
-[14] FocusEconomics. Copper Price Outlook 2025. 2025. https://www.focus-economics.com/commodities/base-metals/copper/ (2026年1月21日閲覧).
-
-[15] Intratec / Nasdaq. Cobalt Metal Prices 2025. 2025. https://www.nasdaq.com/articles/cobalt-market-2025-year-end-review (2026年1月21日閲覧).
-
-[16] Parween, R.; Rani, K.; Panda, R.; Sharma, A.; Ambade, B.; Jha, M. K. Hydrometallurgical separation and purification to recover iron (Fe), copper (Cu), nickel (Ni), lithium (Li), cobalt (Co), and manganese (Mn) metals from the leach liquor of discarded LIBs. Separation and Purification Technology. 2025, vol. 364, 132325. https://doi.org/10.1016/j.seppur.2025.132325 (2026年1月24日閲覧).
-
-[17] Metal.com. Battery Grade Manganese Sulfate Price. 2025. https://www.metal.com/ (2026年1月21日閲覧).
+[8] Parween, R.; Rani, K.; Panda, R.; Sharma, A.; Ambade, B.; Jha, M. K. Hydrometallurgical separation and purification to recover iron (Fe), copper (Cu), nickel (Ni), lithium (Li), cobalt (Co), and manganese (Mn) metals from the leach liquor of discarded LIBs. Separation and Purification Technology. 2025, vol. 364, 132325.
