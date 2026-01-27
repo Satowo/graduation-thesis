@@ -18,7 +18,7 @@ FLAGS = --reference-doc=$(TEMPLATE) \
 		-M toc-title="目次" \
         -M reference-section-title="参考文献" \
         -M figureTitle="Fig. " \
-        -M tableTitle="Table. " \
+        -M tableTitle="Table " \
         -M tableEqns=true \
         -M chapters=true
 
@@ -68,7 +68,7 @@ $(SUMMARY_OUTPUT_NAME): $(SUMMARY_MD_FILES)
 		--citeproc \
 		-M reference-section-title="参考文献" \
 		-M figureTitle="Fig. " \
-		-M tableTitle="Table. " \
+		-M tableTitle="Table " \
 		-M tableEqns=true \
 		-M chapters=true \
 		-o $(OUTPUT_DIR)/$@
