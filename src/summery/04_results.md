@@ -14,9 +14,13 @@
 
 　600 ℃，空気雰囲気，炭素付加率10 wt. %で3時間焙焼した試料を用いた硫酸浸出実験（75 ℃）では，浸出性が大幅に改善された．2 Mの条件では，Niは94.8 %，Cuは98.3 %，Coは94.8 %の高い浸出率を示し，Co回収率の課題が解決された．さらに，Mnも61.4 %の浸出率で回収可能となった．
 
+![Leaching rates in sulfuric acid leaching (optimal conditions)](../graphs/硫酸_best.png)
+
 ## シュウ酸による浸出実験
 
 　シュウ酸浸出法（0.3 M，25 ℃，120分）では，Ni，Co，Cuはすべて100 %の浸出率を示した．しかし，MnおよびFeも同時に溶出し，Mnは100 %（もしくはそれを超える）浸出率を示した．後処理でシュウ酸塩が生成してNi/Co/Cuも共沈してしまう可能性があり，技術課題が残ることが判明した．
+
+![Leaching rates in oxalic acid leaching (optimal conditions)](../graphs/シュウ酸_best.png)
 
 ## アンモニア-炭酸アンモニウム溶液による浸出実験
 

@@ -45,6 +45,10 @@ paper:
 graph:
 	source venv/bin/activate && python utils/convert_csv_delimiter.py && python utils/create_leaching_graph.py && deactivate
 
+# カラーグラフ作成コマンド
+color_graph:
+	source venv/bin/activate && python utils/convert_csv_delimiter.py && python utils/create_color_leaching_graph.py && deactivate
+
 # CSV区切り文字変換コマンド（csvフォルダ内のすべてのCSVファイルをカンマ区切りに変換）
 convert_csv:
 	source venv/bin/activate && python utils/convert_csv_delimiter.py && deactivate
