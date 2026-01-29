@@ -89,11 +89,11 @@ def create_leaching_graph(csv_path=None, output_path=None):
 
     # 4. 軸と目盛りの設定
     # ルール10: 軸ラベルの設定。単位を忘れずに記載。
-    ax.set_xlabel(x_label, fontsize=11)
-    ax.set_ylabel(y_label, fontsize=11)
+    ax.set_xlabel(x_label, fontsize=13)
+    ax.set_ylabel(y_label, fontsize=13)
     
     # ルール31: 目盛りの数字は太字にしない
-    ax.tick_params(axis='both', labelsize=10, width=0.5) # ルール7: 目盛り線は細く
+    ax.tick_params(axis='both', labelsize=12, width=0.5) # ルール7: 目盛り線は細く
     
     # 目盛りの位置を調整（原点で交差するように）
     ax.xaxis.set_ticks_position('bottom')
@@ -120,7 +120,7 @@ def create_leaching_graph(csv_path=None, output_path=None):
     # 5. 凡例の設定
     # ルール6: 凡例はグラフの上段に配置
     ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15),
-              ncol=3, frameon=False, fontsize=10)
+              ncol=3, frameon=False, fontsize=12)
 
     # 6. タイトルの配置（ルール8: 図のタイトルは図の下に書く）
     # タイトルはコード外（本文）で付けるのが一般的ですが、配置を確保するために余白を調整
