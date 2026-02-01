@@ -50,26 +50,38 @@ def create_leaching_graph(csv_path=None, output_path=None):
     fig.patch.set_facecolor('white')
     ax.set_facecolor('white')
 
-    # カラー版: 色の違いで区別する
-    styles = [
-        {'color': '#1f77b4', 'ls': '-',  'marker': 'o'}, # 青・実線・円
-        {'color': '#d62728', 'ls': '-',  'marker': 's'}, # 赤・実線・四角
-        {'color': '#2ca02c', 'ls': '-',  'marker': '^'}, # 緑・実線・三角
-        {'color': '#ff7f0e', 'ls': '-',  'marker': 'D'}, # オレンジ・実線・ひし形
-        {'color': '#9467bd', 'ls': '-',  'marker': 'v'}, # 紫・実線・逆三角
-        {'color': '#8c564b', 'ls': '-',  'marker': 'x'}, # 茶色・実線・バツ
-        {'color': '#e377c2', 'ls': '-',  'marker': '+'}, # ピンク・実線・プラス
-        {'color': '#7f7f7f', 'ls': '-',  'marker': '*'}, # グレー・実線・星
-        {'color': '#bcbd22', 'ls': '-',  'marker': 'p'}, # オリーブ・実線・五角形
-        {'color': '#17becf', 'ls': '-',  'marker': 'h'}, # シアン・実線・六角形
+    # 6系統の場合: 前半3つは白黒濃淡、後半3つはカラー
+    styles_grayscale = [
+        {'color': '#000000', 'ls': '-',  'marker': 'o'}, # 黒・実線・円
+        {'color': '#555555', 'ls': '-',  'marker': 's'}, # 濃灰・実線・四角
+        {'color': '#999999', 'ls': '-',  'marker': '^'}, # 薄灰・実線・三角
+    ]
+    styles_color = [
+        {'color': '#1f77b4', 'ls': '-',  'marker': 'D'}, # 青・実線・ひし形
+        {'color': '#d62728', 'ls': '-',  'marker': 'v'}, # 赤・実線・逆三角
+        {'color': '#2ca02c', 'ls': '-',  'marker': 'p'}, # 緑・実線・五角形
+    ]
+    # 6系統以外: 従来通りカラーで区別
+    styles_fallback = [
+        {'color': '#1f77b4', 'ls': '-',  'marker': 'o'},
+        {'color': '#d62728', 'ls': '-',  'marker': 's'},
+        {'color': '#2ca02c', 'ls': '-',  'marker': '^'},
+        {'color': '#ff7f0e', 'ls': '-',  'marker': 'D'},
+        {'color': '#9467bd', 'ls': '-',  'marker': 'v'},
+        {'color': '#8c564b', 'ls': '-',  'marker': 'x'},
+        {'color': '#e377c2', 'ls': '-',  'marker': '+'},
+        {'color': '#7f7f7f', 'ls': '-',  'marker': '*'},
+        {'color': '#bcbd22', 'ls': '-',  'marker': 'p'},
+        {'color': '#17becf', 'ls': '-',  'marker': 'h'},
     ]
 
     # 3. 各シリーズのプロット
     # シリーズラベルの取得（空行を除外）
     series_labels = df['series'].dropna().values
+    n_series = len(series_labels)
 
     # yの値を上から順にxの数分ずつ分割してプロット
-    for i in range(len(series_labels)):
+    for i in range(n_series):
         start_idx = i * num_x
         end_idx = start_idx + num_x
         series_y = y_all[start_idx:end_idx]
@@ -81,11 +93,17 @@ def create_leaching_graph(csv_path=None, output_path=None):
         # マイナスの値を0にクリップ
         y_plot = np.maximum(y_plot, 0)
         
+        # 6系統のとき: 前半3つは白黒濃淡、後半3つはカラー
+        if n_series == 6:
+            style = styles_grayscale[i] if i < 3 else styles_color[i - 3]
+        else:
+            style = styles_fallback[i % len(styles_fallback)]
+        
         ax.plot(x_plot, y_plot, 
                 label=series_labels[i],
                 linewidth=1.5,      # ルール7: 折れ線は太め(1.5pt)
                 markersize=6,
-                **styles[i % len(styles)])
+                **style)
 
     # 4. 軸と目盛りの設定
     # ルール10: 軸ラベルの設定。単位を忘れずに記載。
