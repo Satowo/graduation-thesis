@@ -138,7 +138,7 @@ def create_leaching_graph(csv_path=None, output_path=None):
     # 5. 凡例の設定
     # ルール6: 凡例はグラフの上段に配置
     ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15),
-              ncol=3, frameon=False, fontsize=12)
+              ncol=3, frameon=False, fontsize=16)
 
     # 6. タイトルの配置（ルール8: 図のタイトルは図の下に書く）
     # タイトルはコード外（本文）で付けるのが一般的ですが、配置を確保するために余白を調整

@@ -7,7 +7,7 @@
 ```
 # 実験結果及び考察
 
-## 酸分解
+## 全岩化学組成分析
 
 　はじめに，試料の元素組成を特定するため，酸分解処理後にICP-MSを用いた分析を行った．分析結果 (4回の平均値) を @tbl:composition に示す．
 
@@ -155,15 +155,15 @@
 
 　Mn (@fig:ammonia-no214-mn) および Fe (@fig:ammonia-no214-fe) も同様に低い浸出率を示し，Mn は 0.08 % 以下，Fe は 0.11 % 以下に留まった．
 
-![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Ni.png){#fig:ammonia-no214-ni}
+![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (Roasted: 600 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No214_Ni.png){#fig:ammonia-no214-ni}
 
-![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Co.png){#fig:ammonia-no214-co}
+![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (Roasted: 600 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No214_Co.png){#fig:ammonia-no214-co}
 
-![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Cu.png){#fig:ammonia-no214-cu}
+![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (Roasted: 600 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No214_Cu.png){#fig:ammonia-no214-cu}
 
-![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Mn.png){#fig:ammonia-no214-mn}
+![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (Roasted: 600 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No214_Mn.png){#fig:ammonia-no214-mn}
 
-![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (No214)](graphs/アンモニア_No214_Fe.png){#fig:ammonia-no214-fe}
+![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (Roasted: 600 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No214_Fe.png){#fig:ammonia-no214-fe}
 
 ```{=openxml}
 <w:p>
@@ -178,16 +178,23 @@
 
 　主要成分である Mn (@fig:ammonia-no148-mn) および Fe (@fig:ammonia-no148-fe) も，全ての温度条件で極めて低い浸出率を示した．Mn は，25 ℃ および 50 ℃ では120 分時点でそれぞれ 0.01 % および 0.02 % であった．75 ℃ では 60 分時点で一時的に 0.04 % とピークを示したが，その後低下し，120 分時点では 0.02 % に留まった．Fe は，25 ℃ および 50 ℃ では120 分時点でそれぞれ 0.001 % および 0.006 % であった．75 ℃ では 60 分時点で一時的に 0.034 % とピークを示したが，その後低下し，120 分時点では 0.008 % に留まった．
 
-![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Ni.png){#fig:ammonia-no148-ni}
+![Leaching rate of Ni in ammonia-ammonium carbonate solution leaching (Roasted: 800 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No148_Ni.png){#fig:ammonia-no148-ni}
 
-![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Co.png){#fig:ammonia-no148-co}
+![Leaching rate of Co in ammonia-ammonium carbonate solution leaching (Roasted: 800 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No148_Co.png){#fig:ammonia-no148-co}
 
-![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Cu.png){#fig:ammonia-no148-cu}
+![Leaching rate of Cu in ammonia-ammonium carbonate solution leaching (Roasted: 800 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No148_Cu.png){#fig:ammonia-no148-cu}
 
-![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Mn.png){#fig:ammonia-no148-mn}
+![Leaching rate of Mn in ammonia-ammonium carbonate solution leaching (Roasted: 800 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No148_Mn.png){#fig:ammonia-no148-mn}
 
-![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (No148)](graphs/アンモニア_No148_Fe.png){#fig:ammonia-no148-fe}
+![Leaching rate of Fe in ammonia-ammonium carbonate solution leaching (Roasted: 800 ℃, air, graphite 10 wt.%, 3 h)](graphs/アンモニア_No148_Fe.png){#fig:ammonia-no148-fe}
 
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+```
 ### 焙焼試料のアンモニア-炭酸アンモニウム溶液浸出における浸出率低下の要因
 
 　河原 et al. (1985) において有用な処理技術として位置づけられていた焙焼試料を用いたアンモニア-炭酸アンモニウム溶液による浸出実験では，Ni，Co，Cuは総じて低い浸出率を示した．本節では，この現象の原因について考察する．
@@ -211,13 +218,13 @@
 
 　各製錬プロセスの経済性を評価するため，試薬コスト，エネルギーコスト，処理時間，および有用金属の回収率に基づく収益性を比較検討した．評価対象としたプロセスは，硫酸浸出法，シュウ酸浸出法，およびアンモニア-炭酸アンモニウム溶液浸出法の3種類である．
 
+### 各プロセスの最適条件
+
+　各プロセスの最適条件は以下の通りである．硫酸浸出法では，600 ℃，空気雰囲気，炭素付加率10 wt. % で3時間焙焼した試料を用いた75 ℃，2 M，180分の条件で最も良い結果が得られた．シュウ酸浸出法では，0.3 M，25 ℃ (常温)，120分の条件で最も良い結果が得られた．アンモニア-炭酸アンモニウム溶液浸出法では未焙焼試料を用いた50℃，15 % NH~3~-9 % CO~2~，120分の条件で最も良い結果が得られた．
+
 ### ターゲットメタルの浸出率
 
 　各浸出手法におけるターゲットメタル (Ni，Co，Cu) の最適条件における浸出率を比較した．硫酸浸出法 (600 ℃，空気雰囲気，炭素付加率10 wt. % で3時間焙焼した試料を用いた75 ℃，2 M，180分) では，Ni は94.8 %，Cu は98.3 %，Co は94.8 % の浸出率を示した．シュウ酸浸出法 (0.3 M，25 ℃，120分) では，Ni，Co，Cu はすべて100 % の浸出率として扱った (なお，実際の測定値では100 % を超える値も観察されたが，これはICP-MS の測定誤差や試料の偏りによるものと考えられ，以降の評価では100 % として扱った)．アンモニア-炭酸アンモニウム溶液浸出法については，未焙焼試料ではCu は46.21 %，Ni は7.53 %，Co は2.09 % と，他の手法と比較して浸出率が著しく低かった．さらに，先行研究 (河原 et al., 1985) において有望とされていた還元焙焼処理を施した試料を用いたアンモニア-炭酸アンモニウム溶液浸出法を試みたところ，600 ℃および800 ℃で焙焼した試料ではNi，Co，Cuの浸出率が極めて低く（Niは実質的に0 %），実用的な回収率が得られなかった．これは，鉄に富む南鳥島のマンガンノジュール（Fe含有量：17.00 wt %）において，還元焙焼によりスピネル相が形成され，NiやCoがこの相に取り込まれてアンモニア溶液では溶解しなくなったためと考えられる．したがって，アンモニア-炭酸アンモニウム溶液浸出法は，特にNi とCo の浸出率が低く，以降の評価対象から除外した．
-
-### 各プロセスの最適条件
-
-　各プロセスの最適条件は以下の通りである．硫酸浸出法では，600 ℃，空気雰囲気，炭素付加率10 wt. % で3時間焙焼した試料を用いた75 ℃，2 M，180分の条件で最も良い結果が得られた．シュウ酸浸出法では，0.3 M，25 ℃ (常温)，120分の条件で最も良い結果が得られた．
 
 ```{=openxml}
 <w:p>
@@ -232,6 +239,13 @@
 
 　また、マンガンも収益源として考慮できる．硫酸浸出法 (焙焼試料，75 ℃，2 M，180分) では，Mn の浸出率は61.4 % であり，試料1トンあたり約99 kg のマンガンが回収可能である．硫酸浸出液の分離・精製については，Parween et al. (2025) が硫酸系浸出液を対象に，pH調整によるFe除去の後，溶媒抽出でCu/Co/Niを段階的に回収し，さらに高pHでMnを沈殿回収するフローを提案している．本研究の浸出液も同様に硫酸塩系であることから，このような段階分離 (Fe除去→Cu抽出→Co/Ni抽出→Mn沈殿) を適用することで，Mn を含む金属群の回収が可能と考えられる．回収Mnは沈殿として回収後，硫酸で再溶解・調整することで硫酸マンガン溶液として製品化できると仮定し，バッテリーグレード硫酸マンガンの市場価格 (約800 USD/t，マンガン含有量32 %基準) (Metal.com, 2025) で評価すると，試料1トンあたり約99 kg のマンガンから約309 kg の硫酸マンガンが得られ，その価値は約247 USD となる．一方，シュウ酸浸出法では，Mn の浸出率は高いものの，浸出液が容易にシュウ酸塩沈殿を生成してしまいマンガンと他の金属の分離が容易ではないことから，今回はマンガンを収益源として評価しない．
 
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+```
 ### 試薬コストの評価
 
 　処理1トンスケールで固液比とモル濃度 (硫酸：固液比10 mL/gで0.5/1/2 M，シュウ酸：固液比99 mL/gで0.1/0.3/0.5 M) を用いて試薬量を換算し，ECHEMI相当の2024年市場水準 (硫酸98 %: 80 USD/t (IndexBox, 2024)，シュウ酸: 500 USD/t (Camachem, 2024)) で概算した．硫酸浸出法の試薬コストは0.5/1/2 Mでそれぞれ約39/79/157 USD．シュウ酸浸出法は0.1/0.3/0.5 Mで約624/1,870/3,120 USDとなった．
