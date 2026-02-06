@@ -12,6 +12,13 @@
 
 ![manganese nodule sample](../../assets/試料の写真.png){#fig:samples}
 
+```{=openxml}
+<w:p>
+  <w:r>
+    <w:br w:type="page"/>
+  </w:r>
+</w:p>
+```
 ## 試料の全岩化学組成分析
 
 　はじめに，試料の元素組成を調べるため，以下の手順で酸分解を行った．
